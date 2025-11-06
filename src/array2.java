@@ -6,7 +6,6 @@ public class array2 {
 
         int total = 0;
         int max = puntuaciones[0];
-
         for (int i = 0; i < puntuaciones.length; i++) {
             total += puntuaciones[i];
 
@@ -17,7 +16,6 @@ public class array2 {
 
 
         double media = (double) total / puntuaciones.length;
-
 
         System.out.println("Puntuación total: " + total + " puntos.");
         System.out.println("Media por partida: " + media + " puntos.");
