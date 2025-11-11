@@ -5,13 +5,13 @@ public class array6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("introduce el núm de elementos del array:");
+        System.out.print(" Introduce el núm de elementos del array: ");
         int n = sc.nextInt();
 
-        System.out.println("Dame un valor mínimo:");
+        System.out.println(" Dame un valor mínimo: ");
         double min = sc.nextDouble();
 
-        System.out.println("Ahora el valor máx:");
+        System.out.println(" Ahora el valor máx: ");
         double max = sc.nextDouble();
 
         double[] numeros = new double[n];
